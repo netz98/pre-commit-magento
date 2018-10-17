@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Build our list of files, and our list of args by testing if the argument is
 # a valid path
@@ -23,4 +23,3 @@ do
         errors_found=true
     fi
 done;
-

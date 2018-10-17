@@ -1,6 +1,6 @@
 -   id: validate_app_etc_config
     name: Validate app/etc/config.php
     description: This checks the app/etc/config.php to prevent commiting Test modules
-    entry: bash bin/validate_app_etc_config.sh
+    entry: ./bin/validate_app_etc_config.sh
     language: script
     files: config\.php
