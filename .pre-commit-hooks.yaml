@@ -1,7 +1,6 @@
--   id: validate_app_env
-    name: Validate app/etc/env.php
-    description: This checks the env.php to prevent commiting Test modules
-    entry: bin/validate_app_env.sh
+-   id: validate_app_etc_config
+    name: Validate app/etc/config.php
+    description: This checks the app/etc/config.php to prevent commiting Test modules
+    entry: bin/validate_app_etc_config.sh
     language: script
-    files: ^(\.app/etc/env.php)$
-
+    files: config\.php
